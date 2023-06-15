@@ -11,16 +11,6 @@ import {
 
 const envId = '612f5d0a30c0b442ab612c3c'
 
-const a = 'a'
-console.log('a1=', a)
-a = 'b'
-console.log('a2=', a)
-console.log('Freezing')
-const frozenArray = Object.freeze([0, 1, 2])
-console.log('Modifying')
-frozenArray[0]++ // TypeError
-console.log('Done')
-
 // Create a Roxflag in the flags container class
 const flags = {
   enableTutorial: new Rox.Flag(),
